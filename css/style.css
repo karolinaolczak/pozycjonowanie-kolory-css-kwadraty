@@ -1,0 +1,96 @@
+.outer {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.square {
+    width: 32%;
+    height: 32%;
+    display: inline-block;
+    position: relative;
+    background-color:red;
+}
+
+.square:nth-child(1) {
+    background-color: red;
+}
+
+.square:nth-child(2) {
+    background-color: blue;
+}
+
+.square:nth-child(3) {
+    background-color: green;
+}
+
+.square:nth-child(4) {
+    background-color: yellow;
+}
+
+.square:nth-child(5) {
+    background-color: black;
+}
+
+.square:nth-child(6) {
+    background-color: orange;
+}
+
+.square:nth-child(7) {
+    background-color: purple;
+}
+
+.square:nth-child(8) {
+    background-color: grey;
+}
+
+.square:nth-child(9) {
+    background-color: violet;
+}
+
+.circle {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 25%;
+    left: 25%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.square:nth-child(1) .circle {
+    background-color: violet;
+}
+
+.square:nth-child(2) .circle {
+    background-color: grey;
+}
+
+.square:nth-child(3) .circle {
+    background-color: purple;
+}
+
+.square:nth-child(4) .circle {
+    background-color: green;
+}
+
+.square:nth-child(5) .circle {
+    background-color: red;
+}
+
+.square:nth-child(6) .circle {
+    background-color: blue;
+}
+
+.square:nth-child(7) .circle {
+    background-color: orange;
+}
+
+.square:nth-child(8) .circle {
+    background-color: yellow;
+}
+
+.square:nth-child(9) .circle {
+    background-color: black;
+}
